@@ -1,3 +1,80 @@
+/******
+1 - !important
+2 - clases en linea
+3 - identificadores
+4 - clases, atributos, pseudoclases
+5 - elementos, pseudoelementos
+*********************/
+
+/*.contact-form__input:first-child{
+    background-color: red;}
+
+
+/*-----------MEDIDAS------------*/
+/*LAS MEDIDADS RELATIVAS SE USAN PARA EL RESPONSIVE DESIGN*/
+
+/*********
+Un em es esquivalente a 16px por defecto, pero
+si el contenedor tiene una propiedad con un valor de 25px,
+el valor de em será igual a ese valor.
+
+******/
+/*
 *{
-    
+    padding: 0px;
+    margin: 0px;
 }
+
+/*.contact-form{
+    font-size: 25px;
+    border: 1px solid blue;
+    background-color: #1111;
+    width: 100vw;
+    height: 100vh;
+}*/
+
+/*PADDING AND MARGIN  TOP RIGHT BOTTOM LEFT*/
+
+
+/*.caja{
+    background-color: #1a237e;
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 50px;
+    padding: 80px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin: 50px;
+    box-shadow: 1px 25px 50px 1px #f48fb1;
+    text-shadow: 1px 1px 50px white;
+    /*transform: rotate(50deg);
+    
+}*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*POSITION:
+-- STATIC
+-- RELATIVE
+-- ABSOLUTE
+-- FIXED
+-- STICKY*/
+
